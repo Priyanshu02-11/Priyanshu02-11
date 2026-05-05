@@ -54,7 +54,8 @@ class Priyanshu:
             "analytics" : ["Pandas", "NumPy", "Seaborn"],
             "bi_tools"  : ["Power BI", "Tableau", "Excel"],
             "nlp"       : ["NLTK", "TextBlob", "Twitter API"],
-            "ml"        : ["Scikit-learn (Intro)", "EDA"],
+            "ml"        : ["CNN", "Vision Transformer (ViT)", "Scikit-learn"],
+            "cv"        : ["OpenCV", "MTCNN", "TensorFlow", "PyTorch"],
             "devtools"  : ["Git", "GitHub", "Jupyter"],
         }
 
@@ -97,6 +98,14 @@ class Priyanshu:
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
+### 🤖 Deep Learning & Computer Vision
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![CNN](https://img.shields.io/badge/CNN-blueviolet?style=for-the-badge&logo=python&logoColor=white)
+![Vision Transformer](https://img.shields.io/badge/Vision_Transformer_(ViT)-00d4ff?style=for-the-badge&logo=python&logoColor=black)
+
 ### 🧠 NLP & Web Scraping
 
 ![NLTK](https://img.shields.io/badge/NLTK-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -124,6 +133,82 @@ class Priyanshu:
 <div align="center">
 
 ## 🚀 `< Featured Projects />`
+
+</div>
+
+<br/>
+
+<!-- ★ FINAL YEAR PROJECT — HIGHLIGHTED CARD ★ -->
+<div align="center">
+
+### 🎓 Final Year Project &nbsp;·&nbsp; `Flagship Work`
+
+</div>
+
+<table align="center" width="96%">
+<tr>
+<td>
+
+<div align="center">
+
+## 🎭 Deepfake Detection System
+### CNN + Vision Transformer (ViT) Hybrid Model
+
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="100%" height="200" />
+
+</div>
+
+<br/>
+
+> **A hybrid deep learning pipeline that detects AI-generated deepfake images and videos with high-confidence classification scoring.**
+
+**Pipeline Flow:**
+```
+Video / Image Input
+       ↓
+  Frame Extraction  (OpenCV)
+       ↓
+  Face Detection    (MTCNN / Haar Cascade)
+       ↓
+  CNN Feature Maps  +  ViT Attention Heads
+       ↓
+  Real vs Fake Prediction  +  Confidence Score
+```
+
+**Key Highlights:**
+
+- 🧠 Hybrid **CNN + Vision Transformer (ViT)** architecture — CNNs capture local texture artifacts, ViT captures global spatial inconsistencies
+- 👁️ Face detection via **MTCNN / Haar Cascade** with preprocessing for lighting & alignment normalization
+- 📊 Outputs **confidence scores** for real vs. fake predictions, not just binary labels
+- 🔐 Applications in **cybersecurity**, **media verification**, and **fraud detection**
+- 🏗️ End-to-end scalable pipeline designed for both image and video inputs
+
+<br/>
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+</div>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- NEON DIVIDER -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br/>
+
+<div align="center">
+
+### 📁 Other Projects
 
 </div>
 
